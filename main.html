@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <h1 class="fade-in">CURRENT WEATHER UPDATE</h1>
+    </header>
+
+    
+    <div class="cities">
+        <button class="city-btn" onclick="getWeather('New York')">New York</button>
+        <button class="city-btn" onclick="getWeather('London')">London</button>
+        <button class="city-btn" onclick="getWeather('Tokyo')">Tokyo</button>
+        <button class="city-btn" onclick="getWeather('Colombo')">Colombo</button>
+        <button class="city-btn" onclick="getWeather('Dubai')">Dubai</button>
+    </div>
+
+    
+    <div class="progress-section">
+        <label for="progress">Updating progress:</label>
+        <progress id="progress" value="0" max="100"></progress>
+    </div>
+
+    
+    <div id="weather" class="weather-container"></div>
+
+    
+    <footer>
+        <p>Developed by <strong>Sandun Indrasiri</strong></p>
+        <p>Faculty Of Information Technology</p>
+        <p>HORIZON CAMPUS</p>
+        <p><b>ITBIN-2211-0195</b></p>
+        <p>@ALL RIGHTS RECIVED</p>
+        <p><a href="mailto:ITBIN-2211-0195@horizoncampus.edu.lk">Contact</a></p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
